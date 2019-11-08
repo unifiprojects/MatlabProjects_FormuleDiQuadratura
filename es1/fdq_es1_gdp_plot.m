@@ -14,7 +14,7 @@ integrale_vero_f4 = 4860000;
 vettore_num_intervalli = linspace(1,100,100);
 
 for i = vettore_num_intervalli
-   If1(i) = trapezi( i, 0, 30, f1);
+   If1(i) = trapezi( i, 0, 30, f1)
 end
 for i = vettore_num_intervalli
    If2(i) = trapezi( i, 0, 30, f2);
