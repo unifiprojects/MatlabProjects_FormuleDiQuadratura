@@ -4,4 +4,4 @@
 ![errore metodo del Trapezio](/img/trapezio_errore.jpg)
 
 ## Plot errore metodo di Simpson
-![errore metodo del Simpson](/img/simpson_errore.jpg)
+![errore metodo del Simpson](/img/simpson_errore.jpg?)
