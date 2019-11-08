@@ -14,16 +14,16 @@ integrale_vero_f4 = 4860000;
 vettore_num_intervalli = linspace(1,100,100);
 
 for i = vettore_num_intervalli
-   If1(i) = simpson( i, 0, 30, f1);
+   If1(i) = simpson( 2*i, 0, 30, f1);
 end
 for i = vettore_num_intervalli
-   If2(i) = simpson( i, 0, 30, f2);
+   If2(i) = simpson( 2*i, 0, 30, f2);
 end
 for i = vettore_num_intervalli
-   If3(i) = simpson( i, 0, 30, f3);
+   If3(i) = simpson( 2*i, 0, 30, f3);
 end
 for i = vettore_num_intervalli
-   If4(i) = simpson( i, 0, 30, f4);
+   If4(i) = simpson( 2*i, 0, 30, f4);
 end
 
 
